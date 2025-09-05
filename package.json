@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "postinstall": "prisma generate"
+    "build:dev": "vite build --mode development"
   },
   "dependencies": {
     "@kinde-oss/kinde-auth-nextjs": "^2.1.15",
